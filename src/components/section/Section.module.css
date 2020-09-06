@@ -1,0 +1,13 @@
+.section{
+  width: 500px;
+  border: dodgerblue 2px solid;
+  margin: 10px;
+  border-radius: 40px;
+}
+
+.section__title{
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  color: cadetblue;
+}

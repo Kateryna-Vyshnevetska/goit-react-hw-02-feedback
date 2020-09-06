@@ -1,7 +1,7 @@
 import React from 'react';
-import Section from './useClasses/section/Section'
-import FeedbackOptions from './useClasses/feedbackOptions/FeedbackOptions'
-import Statistics from './useClasses/statistics/Statistics';
+import Section from './section/Section'
+import FeedbackOptions from './feedbackOptions/FeedbackOptions'
+import Statistics from './statistics/Statistics';
 
 
 const state = {

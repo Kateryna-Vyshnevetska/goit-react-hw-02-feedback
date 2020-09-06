@@ -1,6 +1,7 @@
 import React from 'react';
 import Notification from '../notifications/Notification'
 import StatisticsEntries from './StatisticsEntries'
+import styles from './statistics.module.css'
 
 let status = false
 export const getStart = (flag) => {
@@ -12,7 +13,7 @@ const Statistics = ({...props}) => {
 
   return(
     <>
-      <h2>Statistics</h2>
+      <h2 className={styles.statistics__tittle}>Statistics</h2>
       {status ? <StatisticsEntries {...props}/>: 
       <Notification massage="No feedback given"/>
       }

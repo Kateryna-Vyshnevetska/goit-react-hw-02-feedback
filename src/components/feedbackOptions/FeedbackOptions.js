@@ -1,6 +1,6 @@
 import React from 'react';
 import {getStart} from '../statistics/Statistics';
-
+import styles from './FeedbackOptions.module.css'
 
 const FeedbackOptions = ({options, onLeaveFeedback}) => {
 
@@ -11,11 +11,13 @@ const FeedbackOptions = ({options, onLeaveFeedback}) => {
 
   return(
     <>
+    <div className={styles.sect__btn}>
       {
         Object.keys(options).map(el => (
-        <button onClick={checkBtn} key={el} name={el}>{el}</button>
+        <button onClick={checkBtn} key={el} name={el} className={styles.btn}>{el}</button>
         ))
       }
+      </div>
     </>
   )
 }
